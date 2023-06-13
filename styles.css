@@ -1,0 +1,109 @@
+body {
+    background-color: white;
+    padding: 50px;
+}
+
+#main {
+    width: 90%;
+    background-color: lightgray;
+    padding-left: 100px;
+}
+
+#title {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 550;
+    font-family: sans-serif, "Open Sans", Tohama;
+    margin: 30px;
+    padding-top: 30px;
+}
+
+p {
+    text-align: center;
+    font-size: 19px;
+    font-weight: 150;
+    margin-top: -15px;
+}
+
+#img-div {
+    width: 90%;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 5px 0;
+}
+
+#image {
+    padding-left: 100px;
+    width: 90%;
+    box-sizing: border-box;
+    display: block;
+    max-width: 100%
+}
+
+#img-caption {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#tribute-info {
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* .info {
+    list-style-position: inside;
+    padding: 10px;
+    padding-left: 150px;
+    word-spacing: 1.1px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 15px;
+    line-height: 35px;
+    color: #333;
+    letter-spacing: 1px;
+} */
+
+.bold {
+    font-weight: bold;
+}
+
+.infos {
+    text-align: center;
+    font-style: italic;
+    word-spacing: 1.1px;
+    color: #333;
+    font-size: 25px;
+    line-height: 1.5;
+    padding: 20px
+}
+
+#tribute-link {
+    background-color: purple;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#tribute-link:hover {
+    background-color: lightgray;
+    color: 333;
+}
+
+.info-ul {
+    list-style-position: inside;
+    padding: 10px;
+    padding-left: 30%;
+    word-spacing: 1.1px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 15px;
+    line-height: 35px;
+    color: #333;
+    letter-spacing: 1px;
+
+}
+
+@media screen and (max-width: 960px) {
+    .info-ul {
+        padding-left: 20%;
+    }
+}
